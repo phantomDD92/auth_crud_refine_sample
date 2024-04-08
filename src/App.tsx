@@ -26,11 +26,11 @@ import { ProductList } from "./pages/products/list";
 import { ProductCreate } from "./pages/products/create";
 import { ProductShow } from "./pages/products/show";
 import { ProductEdit } from "./pages/products/edit";
-import { authProvider } from "./authprovider";
 import { CategoryList } from "./pages/categories/list";
 import { CategoryCreate } from "./pages/categories/create";
 import { CategoryShow } from "./pages/categories/show";
 import { CategoryEdit } from "./pages/categories/edit";
+import { authProvider } from "./authProvider";
 
 function App() {
   const { t, i18n } = useTranslation();
